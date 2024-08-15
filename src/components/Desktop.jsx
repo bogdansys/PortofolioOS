@@ -19,7 +19,7 @@ const projects = [
     icon: '📊',
     description: 'ML and Data Insights Hub for data analysis, visualization, and machine learning',
     github: 'https://github.com/bogdansys/data_insights',
-    demo: 'https://data-insights-j4jp686bi-bogdansys-projects.vercel.app/',
+    demo: 'https://data-insights-nu.vercel.app/',
     gradient: 'from-purple-400 to-pink-500'
   },
   {
