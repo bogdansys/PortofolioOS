@@ -41,6 +41,9 @@ export const AboutModal = ({ isOpen, onClose }) => {
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               This portfolio is designed to resemble an operating system interface, allowing you to explore my work in an engaging and interactive manner. Feel free to click around, open projects, and discover more about my skills and experiences.
             </p>
+            <p className="text-gray-600 dark:text-gray-300 mb-4">
+              Please note that the racing game included in this portfolio is a third-party application and not developed by me. It's included as an interactive element to showcase integration capabilities.
+            </p>
             <p className="text-gray-600 dark:text-gray-300">
               Thank you for visiting, and I hope you enjoy exploring my digital world!
             </p>
