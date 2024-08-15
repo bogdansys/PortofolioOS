@@ -39,7 +39,7 @@ To run this project locally, follow these steps:
 
 You can view the live deployment of this project at the following link:
 
-[Live Deployment](https://portofolio-ltmp3wxud-bogdansys-projects.vercel.app/)
+[Live Deployment](https://bogdan-porto-os.vercel.app/)
 
 Feel free to explore and provide feedback!
 
