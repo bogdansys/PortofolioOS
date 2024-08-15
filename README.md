@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 
 2. Navigate to the project directory:
 	```sh
-	cd your-repo-name
+	cd PortofolioOS
 	```
 
 3. Install the dependencies:
