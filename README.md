@@ -17,7 +17,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 	```sh
-	git clone https://github.com/your-username/your-repo-name.git
+	git clone https://github.com/bogdansys/PortofolioOS.git
 	```
 
 2. Navigate to the project directory:
@@ -35,13 +35,11 @@ To run this project locally, follow these steps:
 	npm run dev
 	```
 
-The application should now be running on `http://localhost:3000`.
-
 ## Deployment
 
 You can view the live deployment of this project at the following link:
 
-[Live Deployment](https://your-deployment-link.com)
+[Live Deployment](https://portofolio-ltmp3wxud-bogdansys-projects.vercel.app/)
 
 Feel free to explore and provide feedback!
 
