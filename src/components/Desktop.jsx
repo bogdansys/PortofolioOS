@@ -6,12 +6,14 @@ import { RaceTrackSimulator } from './RaceTrackSimulator';
 
 const projects = [
   {
-    id: 1,
-    name: 'AlpacaExploit',
-    icon: '🦙',
-    description: 'FOSS Cybersecurity Resources Hub',
-    github: 'https://github.com/bogdansys/AlpacaExploit',
-    gradient: 'from-green-400 to-blue-500'
+    id: 16,
+    name: 'Game Of Life Encryption Algorithm',
+    icon: '🔒',
+    github: 'https://github.com/bogdansys/game-of-life-encrytion-algorithm',
+    demo:   'https://game-of-life-encrytion-algorithm.vercel.app/',
+    description: 'A new encryption algorithm based on Conway\'s Game of Life. Designed by me and includes a resarch paper.',
+    gradient: 'from-red-500 to-yellow-500',
+  
   },
   {
     id: 2,
@@ -33,21 +35,19 @@ const projects = [
    
   },
   {
+    id: 1,
+    name: 'Event Horizon Zero',
+    icon: '🛡️',
+    description: 'FOSS Cybersecurity Resources Hub',
+    github: 'https://github.com/bogdansys/AlpacaExploit',
+    gradient: 'from-green-400 to-blue-500'
+  },
+  {
     id: 3,
     name: 'pwnGPT',
     icon: '🤖',
     description: 'AI cybersecurity automation FOSS tool for reverse shell and listener creation and sending as well as vulnerability assessment, built with NMAP and MetaSploit. (Not currently released Due to licensing issues.)',
     gradient: 'from-red-400 to-yellow-500'
-  },
-  {
-    id: 16,
-    name: 'Game Of Life Encryption Algorithm',
-    icon: '🔒',
-    github: 'https://github.com/bogdansys/game-of-life-encrytion-algorithm',
-    demo:   'https://game-of-life-encrytion-algorithm.vercel.app/',
-    description: 'A new encryption algorithm based on Conway\'s Game of Life. Designed by me and includes a resarch paper.',
-    gradient: 'from-red-500 to-yellow-500',
-  
   },
   {
     id: 4,
