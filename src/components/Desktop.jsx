@@ -116,6 +116,26 @@ const projects = [
     gradient: 'from-red-500 to-yellow-500',
     isGame: true
   },
+  {
+    id: 15,
+    name: 'Financial Data Insights',
+    icon: '💹',
+    github: 'https://github.com/bogdansys/financial-data-insights',
+    demo: 'https://financial-data-insights.vercel.app/',
+    description: 'Website to download massive amounts of financial data and analyze it using Data Insights Project.',
+    gradient: ' from-green-400 to-blue-500',
+   
+  },
+  {
+    id: 16,
+    name: 'Game Of Life Encryption Algorithm',
+    icon: '🔒',
+    github: 'https://github.com/bogdansys/game-of-life-encrytion-algorithm',
+    demo:   'https://game-of-life-encrytion-algorithm.vercel.app/',
+    description: 'A new encryption algorithm based on Conway\'s Game of Life. Designed by me and includes a resarch paper.',
+    gradient: 'from-red-500 to-yellow-500',
+  
+  },
 ];
 
 const ProjectIcon = ({ project, onClick }) => {
