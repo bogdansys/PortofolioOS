@@ -32,15 +32,6 @@ const projects = [
     gradient: 'from-red-500 to-yellow-500',
   },
   {
-    id: 2,
-    name: 'DataInsights',
-    icon: ChartBarIcon,
-    description: 'ML and Data Insights Hub for data analysis, visualization, and machine learning',
-    github: 'https://github.com/bogdansys/data_insights',
-    demo: 'https://data-insights-nu.vercel.app/',
-    gradient: 'from-purple-400 to-pink-500',
-  },
-  {
     id: 15,
     name: 'Financial Data Insights',
     icon: CurrencyDollarIcon,
@@ -48,6 +39,15 @@ const projects = [
     demo: 'https://financial-data-insights.vercel.app/',
     description: 'Website to download massive amounts of financial data and analyze it using Data Insights Project.',
     gradient: ' from-green-400 to-blue-500',
+  },
+  {
+    id: 2,
+    name: 'DataInsights',
+    icon: ChartBarIcon,
+    description: 'ML and Data Insights Hub for data analysis, visualization, and machine learning',
+    github: 'https://github.com/bogdansys/data_insights',
+    demo: 'https://data-insights-nu.vercel.app/',
+    gradient: 'from-purple-400 to-pink-500',
   },
   {
     id: 1,
