@@ -140,7 +140,8 @@ const projects = [
     id: 13,
     name: 'Bogdan\'s Portfolio OS',
     icon: BriefcaseIcon,
-    description: 'A portfolio application simulating an operating system interface. (In development)',
+    description: 'A portfolio application simulating an operating system interface. (This is the app you are currently viewing)',
+    github: 'https://github.com/bogdansys/PortofolioOS',
     gradient: 'from-gray-400 to-blue-500',
   },
   {
