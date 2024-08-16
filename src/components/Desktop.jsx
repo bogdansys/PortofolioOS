@@ -36,7 +36,7 @@ const projects = [
     id: 3,
     name: 'pwnGPT',
     icon: '🤖',
-    description: 'AI cybersecurity automation FOSS tool for reverse shell and listener creation and sending as well as vulnerability assessment, built with NMAP and MetaSploit. (Not currently released)',
+    description: 'AI cybersecurity automation FOSS tool for reverse shell and listener creation and sending as well as vulnerability assessment, built with NMAP and MetaSploit. (Not currently released Due to licensing issues.)',
     gradient: 'from-red-400 to-yellow-500'
   },
   {
