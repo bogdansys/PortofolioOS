@@ -66,7 +66,7 @@ const Index = () => {
 
   return (
     <div className={`relative w-full h-screen overflow-hidden ${getWallpaperStyle()} transition-colors duration-500`}>
-      <BackgroundCanvas wallpaper={currentWallpaper} />
+      <BackgroundCanvas wallpaper={currentWallpaper} theme={theme} />
       <motion.div
         className="pointer-events-none fixed inset-0 z-30 transition-opacity duration-300"
         style={{
