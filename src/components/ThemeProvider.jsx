@@ -16,8 +16,7 @@ export function ThemeProvider({
 
     root.classList.remove("light", "dark")
 
-    // Always set the theme to light
-    root.classList.add("light")
+    root.classList.add(theme)
   }, [theme])
 
   const value = {
