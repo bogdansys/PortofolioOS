@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { OverlayWindow } from './OverlayWindow';
 import { Button } from "@/components/ui/button";
 import { RaceTrackSimulator } from './RaceTrackSimulator';
+import { MusicNoteIcon } from '@heroicons/react/24/outline';
 import {
   LockClosedIcon,
   ChartBarIcon,
@@ -69,7 +70,7 @@ const projects = [
   {
     id: 1,
     name: 'HackIfy',
-    icon: ShieldCheckIcon,
+    icon: MusicNoteIcon, 
     description: 'My very own locally running Spotify client',
     github: 'https://github.com/bogdansys/hackify',
     gradient: 'from-red-400 to-blue-500',
