@@ -3,31 +3,15 @@ import { motion } from 'framer-motion';
 import { OverlayWindow } from './OverlayWindow';
 import { Button } from "@/components/ui/button";
 import { RaceTrackSimulator } from './RaceTrackSimulator';
-import { MusicNoteIcon } from '@heroicons/react/24/outline';
-import {
-  LockClosedIcon,
-  ChartBarIcon,
-  CurrencyDollarIcon,
-  ShieldCheckIcon,
-  AcademicCapIcon,
-  ClockIcon,
-  PhotoIcon,
-  CubeIcon,
-  BookOpenIcon,
-  PuzzlePieceIcon,
-  NewspaperIcon,
-  BriefcaseIcon,
-  FlagIcon,
-  FireIcon,
-  ServerIcon,
-  LightBulbIcon
-} from '@heroicons/react/24/outline';
+import * as HeroIcons from '@heroicons/react/24/outline';
+
+const PlayIcon = HeroIcons.PlayIcon; // Alternative icon for HackIfy
 
 const projects = [
   {
     id: 16,
     name: 'Game Of Life Encryption Algorithm',
-    icon: LockClosedIcon,
+    icon: HeroIcons.LockClosedIcon,
     github: 'https://github.com/bogdansys/game-of-life-encrytion-algorithm',
     demo: 'https://game-of-life-encrytion-algorithm.vercel.app/',
     description: 'A new encryption algorithm based on Conway\'s Game of Life. Designed by me and includes a research paper.',
@@ -36,16 +20,16 @@ const projects = [
   {
     id: 15,
     name: 'Financial Data Insights',
-    icon: CurrencyDollarIcon,
+    icon: HeroIcons.CurrencyDollarIcon,
     github: 'https://github.com/bogdansys/financial-data-insights',
     demo: 'https://financial-data-insights.vercel.app/',
     description: 'Website to download massive amounts of financial data and analyze it using Data Insights Project.',
-    gradient: ' from-green-400 to-blue-500',
+    gradient: 'from-green-400 to-blue-500',
   },
   {
     id: 2,
     name: 'DataInsights',
-    icon: ChartBarIcon,
+    icon: HeroIcons.ChartBarIcon,
     description: 'ML and Data Insights Hub for data analysis, visualization, and machine learning',
     github: 'https://github.com/bogdansys/data_insights',
     demo: 'https://data-insights-nu.vercel.app/',
@@ -54,7 +38,7 @@ const projects = [
   {
     id: 19,
     name: 'MindKey',
-    icon: LightBulbIcon, // Updated to LightBulbIcon for MindKey
+    icon: HeroIcons.LightBulbIcon, // Updated to LightBulbIcon for MindKey
     description: 'Android app for creating mental maps and notes. (Waiting for approval on Play Store)',
     github: 'https://github.com/bogdansys/mindkey',
     gradient: 'from-green-400 to-blue-500',
@@ -62,15 +46,15 @@ const projects = [
   {
     id: 1,
     name: 'Event Horizon Zero',
-    icon: ShieldCheckIcon,
+    icon: HeroIcons.ShieldCheckIcon,
     description: 'FOSS Cybersecurity Resources Hub',
     github: 'https://github.com/bogdansys/AlpacaExploit',
     gradient: 'from-green-400 to-blue-500',
   },
   {
-    id: 1,
+    id: 12314,
     name: 'HackIfy',
-    icon: MusicNoteIcon, 
+    icon: PlayIcon,  // Updated to PlayIcon
     description: 'My very own locally running Spotify client',
     github: 'https://github.com/bogdansys/hackify',
     gradient: 'from-red-400 to-blue-500',
@@ -78,14 +62,14 @@ const projects = [
   {
     id: 3,
     name: 'pwnGPT',
-    icon: FireIcon,  // Updated to FireIcon
+    icon: HeroIcons.FireIcon,  // Updated to FireIcon
     description: 'AI cybersecurity automation FOSS tool for reverse shell and listener creation and sending as well as vulnerability assessment, built with NMAP and MetaSploit. (Not currently released Due to licensing issues.)',
     gradient: 'from-red-400 to-yellow-500',
   },
   {
     id: 4,
     name: 'Rhaast Study Tool',
-    icon: AcademicCapIcon,
+    icon: HeroIcons.AcademicCapIcon,
     description: 'Python program designed to help you study for various courses and topics. It allows you to add courses and topics, and then add questions for each topic.',
     github: 'https://github.com/bogdansys/rhaast_study_tool',
     gradient: 'from-blue-400 to-indigo-500',
@@ -93,7 +77,7 @@ const projects = [
   {
     id: 5,
     name: 'In Time',
-    icon: ClockIcon,
+    icon: HeroIcons.ClockIcon,
     description: 'Streamlined desktop application designed to enhance study motivation by continuously displaying time elapsed in your life, day, week, month, and year.',
     github: 'https://github.com/bogdansys/in_time',
     gradient: 'from-yellow-400 to-orange-500',
@@ -101,7 +85,7 @@ const projects = [
   {
     id: 6,
     name: 'AI Terminal Image Creator',
-    icon: PhotoIcon,
+    icon: HeroIcons.PhotoIcon,
     description: 'A Python script that leverages OpenAI\'s DALL·E to generate images from text prompts and subsequently converts those images into ASCII art suitable for displaying in terminal or text documents.',
     github: 'https://github.com/bogdansys/AI-Terminal-Image-Creator',
     gradient: 'from-teal-400 to-green-500',
@@ -109,7 +93,7 @@ const projects = [
   {
     id: 7,
     name: '3D Graphics Engine',
-    icon: CubeIcon,
+    icon: HeroIcons.CubeIcon,
     description: 'A rudimentary 3D graphics engine that projects and visualizes basic geometric shapes in a console environment.',
     github: 'https://github.com/bogdansys/Simple-3D-Graphics-Engine',
     gradient: 'from-indigo-400 to-purple-500',
@@ -117,7 +101,7 @@ const projects = [
   {
     id: 8,
     name: 'ML Book',
-    icon: BookOpenIcon,
+    icon: HeroIcons.BookOpenIcon,
     description: 'Book On Machine Learning: An introductory guide to the mathematics behind Machine Learning models, written by me.',
     github: 'https://github.com/bogdansys/Book-On-Machine-Learning',
     gradient: 'from-blue-400 to-cyan-500',
@@ -125,7 +109,7 @@ const projects = [
   {
     id: 9,
     name: 'DSA Book',
-    icon: BookOpenIcon,  // Updated to use the same icon as ML Book
+    icon: HeroIcons.BookOpenIcon,  // Updated to use the same icon as ML Book
     description: 'Book on Data Structures and Algorithms: A comprehensive crash course on algorithms and data structures, authored by me.',
     github: 'https://github.com/bogdansys/Book-On-Algorithms-and-data-structures',
     gradient: 'from-green-400 to-teal-500',
@@ -133,7 +117,7 @@ const projects = [
   {
     id: 10,
     name: 'Microservice Pizza Delivery App',
-    icon: ServerIcon,  // Updated to ServerIcon to represent microservices architecture
+    icon: HeroIcons.ServerIcon,  // Updated to ServerIcon to represent microservices architecture
     description: 'A complex microservices-based backend for a pizza delivery application, showcasing advanced Java Spring architecture, including Spring Security for authentication and authorization.',
     github: 'https://github.com/bogdansys/Microservice-project-java-spring',
     gradient: 'from-red-400 to-pink-500',
@@ -141,7 +125,7 @@ const projects = [
   {
     id: 11,
     name: 'Multiplayer Game Quizzz',
-    icon: PuzzlePieceIcon,  // Updated to PuzzlePieceIcon to represent a game
+    icon: HeroIcons.PuzzlePieceIcon,  // Updated to PuzzlePieceIcon to represent a game
     description: 'Quizzzz is a multiplayer and singleplayer trivia-game that wants to teach the players a lesson about energy consumption while providing a fun gaming experience.',
     github: 'https://github.com/bogdansys/multiplayer-online-java-game-in-Spring',
     gradient: 'from-purple-400 to-indigo-500',
@@ -149,7 +133,7 @@ const projects = [
   {
     id: 12,
     name: 'Revista CAVA',
-    icon: NewspaperIcon,
+    icon: HeroIcons.NewspaperIcon,
     description: '"Sfantul Sava" National College student owned magazine',
     github: 'https://github.com/bogdansys/revista-cava-website',
     gradient: 'from-yellow-400 to-red-500',
@@ -157,7 +141,7 @@ const projects = [
   {
     id: 13,
     name: 'Bogdan\'s Portfolio OS',
-    icon: BriefcaseIcon,
+    icon: HeroIcons.BriefcaseIcon,
     description: 'A portfolio application simulating an operating system interface. (This is the app you are currently viewing)',
     github: 'https://github.com/bogdansys/PortofolioOS',
     gradient: 'from-gray-400 to-blue-500',
@@ -165,7 +149,7 @@ const projects = [
   {
     id: 14,
     name: 'RaceTrack Simulator',
-    icon: FlagIcon,  // Updated to FlagIcon
+    icon: HeroIcons.FlagIcon,  // Updated to FlagIcon
     description: 'A high-performance racing simulation with realistic physics and customizable tracks.',
     gradient: 'from-red-500 to-yellow-500',
     isGame: true,
