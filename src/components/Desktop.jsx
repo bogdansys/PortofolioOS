@@ -67,6 +67,14 @@ const projects = [
     gradient: 'from-green-400 to-blue-500',
   },
   {
+    id: 1,
+    name: 'HackIfy',
+    icon: ShieldCheckIcon,
+    description: 'My very own locally running Spotify client',
+    github: 'https://github.com/bogdansys/hackify',
+    gradient: 'from-red-400 to-blue-500',
+  },
+  {
     id: 3,
     name: 'pwnGPT',
     icon: FireIcon,  // Updated to FireIcon
