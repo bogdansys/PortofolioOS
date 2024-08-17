@@ -10,7 +10,7 @@ const dockItems = [
   { id: 'github', icon: Github, title: 'GitHub', link: 'https://github.com/bogdansys' },
   { id: 'linkedin', icon: Linkedin, title: 'LinkedIn', link: 'https://www.linkedin.com/in/mihai-iordache-676444187/' },
   { id: 'email', icon: Mail, title: 'Email', link: 'mailto:your.email@example.com' },
-  { id: 'spotify', icon: Music, title: 'Spotify', link: 'https://open.spotify.com/' },
+  { id: 'spotify', icon: Music, title: 'Spotify', link: 'https://github.com/bogdansys/hackify' },
   { id: 'cv', icon: FileText, title: 'CV', link: '#' },
   { id: 'skills', icon: Code, title: 'Skills', link: '#' },
   { id: 'certificates', icon: Award, title: 'Certificates', link: '#' },
