@@ -18,7 +18,8 @@ import {
   BriefcaseIcon,
   FlagIcon,
   FireIcon,
-  ServerIcon
+  ServerIcon,
+  LightBulbIcon
 } from '@heroicons/react/24/outline';
 
 const projects = [
@@ -48,6 +49,14 @@ const projects = [
     github: 'https://github.com/bogdansys/data_insights',
     demo: 'https://data-insights-nu.vercel.app/',
     gradient: 'from-purple-400 to-pink-500',
+  },
+  {
+    id: 19,
+    name: 'MindKey',
+    icon: LightBulbIcon, // Updated to LightBulbIcon for MindKey
+    description: 'Android app for creating mental maps and notes. (Waiting for approval on Play Store)',
+    github: 'https://github.com/bogdansys/mindkey',
+    gradient: 'from-green-400 to-blue-500',
   },
   {
     id: 1,
