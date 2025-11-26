@@ -19,17 +19,15 @@ const SkillCategory = ({ title, skills, icon: Icon }) => (
 
 export const SkillsModal = () => {
   const skillCategories = [
-    { title: "Languages", skills: ["C++", "C", "Java", "JavaScript", "Python", "PHP", "SQL"], icon: Code },
-    { title: "Web", skills: ["Angular", "React", "NodeJS", "HTML", "CSS"], icon: Globe },
-    { title: "Backend", skills: ["Spring (Boot, Security)", "Zend", "Gradle", "Django"], icon: Server },
-    { title: "Testing & QA", skills: ["Selenium", "Cypress", "JsMockito", "JUnit", "Playwright"], icon: TestTube },
-    { title: "Databases", skills: ["SQL", "PostgreSQL", "MongoDB", "MariaDB"], icon: Database },
-    { title: "Collab Tools", skills: ["Git", "Jira", "BitBucket"], icon: GitBranch },
-    { title: "Security", skills: ["Kali & Blackarch Linux", "RAT", "MITM", "Metasploit", "Nmap"], icon: Shield },
-    { title: "CI/CD", skills: ["Jenkins Pipelines", "GitLab Pipelines", "Kruiser"], icon: Cloud },
-    { title: "Practices", skills: ["Agile Development", "SCRUM"], icon: Workflow },
-    { title: "Containerization", skills: ["Docker"], icon: Box },
-    { title: "University Courses", skills: ["Algorithm Design and Data Structures", "OOP", "ML"], icon: GraduationCap },
+    { title: "Languages & Frontend", skills: ["Java", "Python", "C/C++", "TypeScript", "SQL", "Bash", "React", "Tailwind CSS", "Capacitor"], icon: Code },
+    { title: "Backend & Architecture", skills: ["Spring Boot", "Microservices", "JPA", "Node.js", "Django", "GraphQL", "REST", "Webhooks", "Stripe orchestration", "System Design"], icon: Server },
+    { title: "Cloud, DevOps & AI", skills: ["Git", "AWS", "Docker", "Supabase", "Firebase", "CI/CD", "Linux", "iOS/Android deployment", "LLM APIs", "Agentic AI frameworks"], icon: Cloud },
+    { title: "Database & Messaging", skills: ["PostgreSQL tuning", "Kafka", "Redis"], icon: Database },
+    { title: "Security", skills: ["OWASP ZAP", "Burp Suite", "Kali", "Nmap", "Metasploit", "Wireshark", "OAuth2/OIDC", "RSA"], icon: Shield },
+    { title: "Testing & QA", skills: ["JUnit", "Mockito", "Jest", "Cypress", "Playwright", "Selenium", "Vitest", "Postman", "TDD"], icon: TestTube },
+    { title: "Embedded Systems", skills: ["FPGA (VHDL/Verilog)", "STM32 (Bare-metal)", "RTOS", "Arduino"], icon: Box },
+    { title: "Professional Skills", skills: ["Agile/Scrum", "Tech Leadership", "Mentorship", "Stakeholder Management", "Splunk", "Technical Writing"], icon: Workflow },
+    { title: "University Courses", skills: ["Algorithms & Data Structures", "Machine Learning & AI", "Secure & Distributed Systems", "Embedded Software"], icon: GraduationCap },
   ];
 
   return (

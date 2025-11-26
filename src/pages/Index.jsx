@@ -85,7 +85,7 @@ const Index = () => {
             maxWidth: '600px',
           }}
         >
-          <div className="text-sm font-medium text-white">Bogdan's Coding Projects</div>
+          <div className="text-sm font-medium text-white">Iordache Bogdan — Portfolio OS</div>
           <div className="flex items-center space-x-4">
             <div className="text-sm font-medium text-white">
               {currentTime.toLocaleString('en-US', { 

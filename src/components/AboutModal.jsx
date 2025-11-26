@@ -30,25 +30,23 @@ export const AboutModal = ({ isOpen, onClose }) => {
           </div>
           <div className="p-6 overflow-auto max-h-[calc(90vh-6rem)]">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Welcome to my personal portfolio! This interactive application showcases my journey as a developer and penetration tester, featuring:
+              I’m Bogdan Iordache, a full-stack engineer and technical architect focused on secure, reliable product delivery. I build end-to-end systems (frontend, backend, mobile) with an emphasis on resilient architectures, DevSecOps, and measurable impact.
             </p>
-            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mb-4">
-              <li>All projects I've worked on or am currently developing</li>
-              <li>My comprehensive CV detailing my professional experience and skills</li>
-              <li>Personal details and contact information</li>
-              <li>Insights into my life as a developer and pen tester</li>
+            <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 mb-4 space-y-2">
+              <li>Built and shipped enterprise SaaS (Supabase, Stripe, Docker, CI/CD with blue/green + feature flags).</li>
+              <li>Production experience in Java/Spring, GraphQL/REST, Postgres tuning, and observability.</li>
+              <li>Security-aware delivery: OAuth2/OIDC/SAML, MFA, RLS/RBAC, pentesting mindset.</li>
+              <li>Comfortable leading squads, mentoring, and working directly with stakeholders.</li>
             </ul>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              This portfolio is designed to resemble an operating system interface, allowing you to explore my work in an engaging and interactive manner. Feel free to click around, open projects, and discover more about my skills and experiences.
-            </p>
-            <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Please note that the racing game included in this portfolio is a third-party application and not developed by me. It's included as an interactive element to showcase integration capabilities.
-            </p>
+            <div className="mb-4 text-sm text-gray-700 dark:text-gray-300">
+              <p className="font-semibold text-gray-800 dark:text-white">Contact</p>
+              <p>Email: <a href="mailto:bogdanmihai453@gmail.com" className="text-blue-500 hover:underline">bogdanmihai453@gmail.com</a></p>
+              <p>LinkedIn: <a href="https://www.linkedin.com/in/mihai-iordache-676444187/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">mihai-iordache-676444187</a></p>
+              <p>Phone: +40 733 794 788</p>
+              <p>Portfolio: <a href="https://bogdan-porto-os.vercel.app" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">bogdan-porto-os.vercel.app</a></p>
+            </div>
             <p className="text-gray-600 dark:text-gray-300">
-              Thank you for visiting, and I hope you enjoy exploring my digital world!
-            </p>
-            <p className="text-gray-600 dark:text-gray-300 mt-4">
-              Special thanks to my mom, dad, sister, grandma, and ChatGPT for their support and inspiration in my journey.
+              Explore the desktop icons for projects, use the dock for my CV/skills/certifications, and reach out via email or LinkedIn if you’d like to collaborate.
             </p>
           </div>
         </motion.div>
